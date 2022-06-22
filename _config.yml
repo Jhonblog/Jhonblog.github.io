@@ -2,8 +2,8 @@ encoding: utf-8
 
 # SEO相关信息
 title: Jhone Blog
-description: Jhone's Blog
-keywords: TMaize,Blog
+description: Jhon's Blog
+keywords: Jhon's Blog
 author: Jhon
 footerText: 'Copyright © 2022 Jhon'
 
@@ -49,6 +49,10 @@ extAdsense: false
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: false
+
+
+#评论功能
+comments: true
 
 # 友情链接
 #links:
