@@ -59,3 +59,5 @@ comments: true
  # - title: 文科中的技术宅
  #   url: https://www.townwang.com
  
+
+staticman_url: https://discubot.herokuapp.com/v3/entry/github/Jhonblog/Jhonblog.github.io/main/comments
