@@ -60,4 +60,4 @@ comments: true
  #   url: https://www.townwang.com
  
 
-staticman_url: https://discubot.herokuapp.com/v3/entry/github/Jhonblog/Jhonblog.github.io/main/comments
+staticman_url: https://discubot.herokuapp.com/v2/entry/github/Jhonblog/Jhonblog.github.io/main/comments
