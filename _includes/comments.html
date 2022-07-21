@@ -1,5 +1,5 @@
 <!-- _includes/comments.html -->
-<section class="comments">
+<!-- <section class="comments">
     <div>
       <h2 class="title-leave">Leave a Comment</h2>
       {% include comment-form.html %}
@@ -12,9 +12,9 @@
     </div>
   {% endif %}
     
-</section>
+</section> -->
 
-  <style>
+  <!-- <style>
     .title-leave {
       margin-top: 20px;
       margin-bottom: -10px;
@@ -22,4 +22,20 @@
     .title-comment {
       margin-top: 20px;
     }
-  </style>
+  </style> -->
+
+
+  <!-- _includes/comments.html -->
+<section class="comments">
+  {% if site.data.comments[page.slug] %}
+  <div>
+    <h2>Comments</h2>
+    {% include comment-list.html %}
+  </div>
+  {% endif %}
+
+  <div>
+    <h2>Leave a Comment</h2>
+    {% include comment-form.html %}
+  </div>
+</section>
