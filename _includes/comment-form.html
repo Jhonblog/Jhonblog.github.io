@@ -21,6 +21,41 @@
         placeholder="Name"
         required
       />
-      <button class="comment-submit" type="submit">SEND</button>
+      <button class="comment-submit form-button" type="submit">SEND</button>
     </div>
   </form>
+  <link rel="stylesheet" type="text/css" href="../_sass/comments.scss">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .comment-form {
+      margin-top: 20px;
+      width: 500px;
+    }
+    .comment-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .comment-name {
+      width: 350px;
+      height: 30px;
+      outline: none;
+      border: 1px solid #ccc;
+    }
+    .comment-message {
+      width: 500px;
+      resize:none;
+      height: 100px;
+    }
+    .form-button {
+      width: 150px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+  </style>
