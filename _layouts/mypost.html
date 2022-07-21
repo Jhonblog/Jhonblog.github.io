@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<script id="dsq-count-scr" src="//jhonblog-1.disqus.com/count.js" async></script>
-
 <html lang="zh-CN">
 {% include head.html -%}
 <body ondragstart="return false;">
@@ -20,10 +18,7 @@
   {% endif %}
 </div>
 
-<!-- _layout/post.html -->
-<div class="post-content e-content" itemprop="articleBody">
-  {{ content }}
- </div>
+<div class="disqu" itemprop="articleBody">{{ comments }}</div>
 
 {% include comments.html %}
 

@@ -10,7 +10,7 @@
     itemprop="datePublished"
   >
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {{ comment.date | date:"%H:%M-%b%-d,%Y" }}
+    {{ comment.date | date:"%H:%M-%b-%d,%Y" }}
   </time>
 </div>
 <p class="message-p">{{comment.message | strip_html | markdownify }}</p>
@@ -21,7 +21,7 @@
     align-items: center;
   }
   .comment-myname {
-    margin: 10px 20px 10px 0;
+    margin: 10px 10px 15px 0;
   }
   .post-meta {
     margin: 10px 0;
