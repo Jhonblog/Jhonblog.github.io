@@ -1,4 +1,4 @@
-<!-- _includes/comment-list.html -->
+<!-- _includes/comment-list.html
 {% assign comments = site.data.comments[page.slug] | where_exp: "item", "true" %} 
 {% assign sorted_comments = comments | sort: 'date' %} 
 {% for comment in sorted_comments %}
@@ -14,7 +14,7 @@
   </time>
 </div>
 <p class="message-p">{{comment.message | strip_html | markdownify }}</p>
-{% endfor %}
+{% endfor %} -->
 
 <!-- <style>
   .comment {
