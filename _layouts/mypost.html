@@ -24,12 +24,14 @@
   data-page-id="{{ page.slug }}"
   data-page-url="{{ PAGE_URL }}"
   data-page-title="{{ PAGE_TITLE }}"
-  if (blog.darkMode) {
+ <script>
+     if (blog.darkMode) {
         data-theme="{{ dark }}"
      }
      else{
         data-theme="{{ light }}"
      }
+   </script>
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
