@@ -24,15 +24,9 @@
   data-page-id="{{ page.slug }}"
   data-page-url="{{ PAGE_URL }}"
   data-page-title="{{ PAGE_TITLE }}"
- <script>
-     if (blog.darkMode) {
-        data-theme="{{ dark }}"
-     }
-     else{
-        data-theme="{{ light }}"
-     }
-   </script>
-></div>
+  data-theme="{{window.CUSDIS.renderTo(target: HTMLElement)}}"
+     
+ ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
 
